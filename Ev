@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evaluacion</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function suma(num)
+		{
+			return num + num;
+		}
+
+		function resta(num)
+		{
+			return num - num;
+		}
+
+		function multiplicacion(num)
+		{
+			return num * num;
+		}
+
+		function division(num)
+		{
+			return num / num;
+		}
+
+		var numero = prompt("Introduce un numero");
+		numero = parseInt(numero);
+		document.writeln("<p>" + numero + "</p>");
+		var resultSuma = suma( numero);
+		var resultResta = resta( numero);
+		var resultMultiplicacion = multiplicacion( numero);
+		var resultDivision = division( numero);
+
+		document.writeln("<p>El resultado de la suma es:"+ resultSuma +"</p>");
+		document.writeln("<p>El resultado de la resta es:"+ resultResta +"</p>");
+		document.writeln("<p>El resultado de la multiplicacion es:"+ resultMultiplicacion +"</p>");
+		document.writeln("<p>El resultado de la division es:"+ resultDivision +"</p>");
+
+
+	</script>
+
+</body>
+</html>
